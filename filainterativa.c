@@ -87,7 +87,7 @@ int main() {
         printf("4. Encontrar elemento na fila\n");
         printf("0. Sair\n");
         printf("=========================\n");
-        printf("Escolha uma opaoo: ");
+        printf("Escolha uma opacao: ");
         scanf("%d", &opcao);
 
         switch (opcao) {
@@ -129,4 +129,5 @@ int main() {
 
     } while (opcao != 0);
     return 0;
+
 }
